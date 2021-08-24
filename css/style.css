@@ -1,0 +1,63 @@
+.left-block {
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+}
+.center-block {
+    width: 250px;
+    height: 300px;
+    background-color: blueviolet;
+}
+.right-block {
+    width: 250px;
+    height: 300px;
+    background-color:darkgoldenrod;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: lightseagreen;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.text {
+    max-width:600px;
+    width: 100%;
+    background-color: lightblue;
+    text-indent: 30px;
+}
+
+/* images example */
+.images-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block-image {
+    width: 250px;
+}
+.block-image img {
+    width: 100%;
+}
+
+
+/* icons */
+.fa-facebook {
+    color: blue;
+    font-size: 30px;
+}
+.youtube-icon {
+    color: red;
+    font-size: 30px;
+}
+.fa-facebook:hover {
+    color: green;
+}
